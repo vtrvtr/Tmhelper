@@ -8,9 +8,9 @@ import sys
 FORMATTER = """%(asctime)4s - %(levelname)-1s %(message)s \n"""
 
 logging.basicConfig(
-    filename='E:\Code\Outros\Virtua Helper\\tmhelper.log', level=logging.INFO, format=FORMATTER)
+    filename='E:\Code\Tmhelper\tmhelper.log', level=logging.INFO, format=FORMATTER)
 
-db = tdb("E:\\Code\Outros\Virtua helper\complain_db.json")
+db = tdb("E:\\Code\\Tmhelper\complain_db.json")
 
 
 def add_complain():
